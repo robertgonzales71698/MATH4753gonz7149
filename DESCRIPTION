@@ -1,0 +1,11 @@
+Package: MATH4753gonz7149
+Type: Package
+Title: Package for Math4753
+Version: 0.1.0
+Author: Robert Gonzales
+Maintainer: Robert Gonzales <robert.m.gonzales-1@ou.edu>
+Description: This is the package used to hold all of the functions needed for MATH4753
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1

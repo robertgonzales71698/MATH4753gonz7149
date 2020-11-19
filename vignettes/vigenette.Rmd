@@ -1,0 +1,40 @@
+---
+title: "MATH4753gonz7149"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+    math: katex
+    df_print: paged
+
+vignette: >
+  %\VignetteIndexEntry{vigenette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753gonz7149)
+```
+
+# Introduction
+This package was created by me, Robert Gonzales. The goal is that I could use it to complete assignments for MATH4753 (taught by Wayne Stewart at The University of Oklahoma) as well as help build my experience with the programming language r, which can be used to calculate statistics from various data sets.
+
+## myread Function
+This function was created so that a user could read in data from any csv file if they provide the directory and file name. This was an introductory function made to provide me with the experience of adding a function to a package and using my own package in class assignments. This  function was not created for the its functionality as there are more efficient ways to do this without this function.
+
+## mybin Function
+This function was created to be able to run different binomial experiments given certain parameters. The function allows users to input any iteration, number of Bernoulli trials, and the probability of a success. It then returns a bar plot and table of relative frequencies.
+
+## mycltu Function
+This function was created to calculate the central limit. The function allows users to input any iteration and the number of Bernoulli trials, it then returns a histogram of Density vs. Sample mean.
+
+## myboot2 Function
+This function was created to calculate the bootstrap interval given certain parameters. The function takes in a users input and sample statistics and then returns a histogram and gives the resulting bootstrap interval.

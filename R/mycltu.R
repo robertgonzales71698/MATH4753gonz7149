@@ -7,7 +7,7 @@
 #' @param a
 #' @param b
 #'
-#' @return a Graph with all data needed to find the cetral limit
+#' @return a Graph with all data needed to find the central limit
 #' @export
 #'
 #' @examples

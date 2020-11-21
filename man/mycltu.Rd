@@ -10,7 +10,7 @@ mycltu(n, iter, a = 0, b = 10)
 \item{b}{}
 }
 \value{
-a Graph with all data needed to find the cetral limit
+a Graph with all data needed to find the central limit
 }
 \description{
 My Central Limit Function
